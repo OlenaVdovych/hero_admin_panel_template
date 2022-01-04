@@ -24,9 +24,9 @@ const HeroesListItem = ({name, description, element}) => {
         <li 
             className={`card flex-row mb-4 shadow-lg text-white ${elementClassName}`}>
             <img src="http://www.stpaulsteinbach.org/wp-content/uploads/2014/09/unknown-hero.jpg" 
-                 className="img-fluid w-25 d-inline" 
-                 alt="unknown hero" 
-                 style={{'objectFit': 'cover'}}/>
+                className="img-fluid w-25 d-inline" 
+                alt="unknown hero" 
+                style={{'objectFit': 'cover'}}/>
             <div className="card-body">
                 
                 <h3 className="card-title">{name}</h3>
