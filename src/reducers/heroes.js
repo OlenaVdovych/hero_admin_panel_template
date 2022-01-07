@@ -21,7 +21,7 @@ const heroes = (state = initialState, action) => {
                 ...state,
                 heroesLoadingStatus: 'error'
             }
-        case 'HERO_CREATED':  
+        case 'HERO_CREATED':
             return {
                 ...state,
                 heroes: [...state.heroes, action.payload]
